@@ -1,6 +1,6 @@
 //               012345678911
 let umaString = "um texto";
-                 //01234567891123456789212345678931234
+               //01234567891123456789212345678931234
 let umastring = 'o rato roeu a roupa do rei de roma.';
 console.log(umaString[4]);
 console.log(umaString .concat(' em um lindo dia.' ));
@@ -16,3 +16,9 @@ console.log(umaString.replace('um', 'texto'));
 console.log(umastring.replace(/r/g, 'l'));
 console.log(umaString.length);
 console.log(umastring.length);
+console.log(umastring.slice(2,21));
+console.log(umastring.slice(-13, -1));
+console.log(umastring.split(' ',4))
+console.log(umastring.toUpperCase());
+console.log(umastring.toLowerCase());
+
