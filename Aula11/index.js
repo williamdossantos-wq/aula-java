@@ -13,6 +13,8 @@ console.log(umaString.match(/[a-z]/g));
 console.log(umaString.match(/[a-z]/));
 console.log(umaString.search(/[a-z]/));
 console.log(umaString.replace('um', 'texto'));
+
+
 console.log(umastring.replace(/r/g, 'l'));
 console.log(umaString.length);
 console.log(umastring.length);
