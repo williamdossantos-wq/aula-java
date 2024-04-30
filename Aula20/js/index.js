@@ -10,16 +10,20 @@ function recebeEventoform (evento){
     const nome = form.querySelector('.nome');
     const sobrenome = form.querySelector('.sobrenome');
     const peso = form.querySelector('.peso');
-    const altura = form.querySelector('.altura');    
-    console.log(pessoas);
+    const altura = form.querySelector('.altura');  
+    const anime = form.querySelector('.anime');
 
     pessoas.push({
         nome:nome.value,
         sobrenome:sobrenome.value,
         peso:peso.value,
-        altura:altura.value
+        altura:altura.value,
+        anime:anime.value
     })
-    resultado.innerHTML += `<p>${nome.value} ${sobrenome.value} ${peso.value} ${altura.value}</p>`
+    console.log(pessoas);
+
+    resultado.innerHTML += `<p> Nome: ${nome.value} ${sobrenome.value}<br/> Peso: ${peso.value} <br>Altura: ${altura.value}
+    <br> ${anime.value}</p>`
 }
 
 form.addEventListener('submit', recebeEventoform);
