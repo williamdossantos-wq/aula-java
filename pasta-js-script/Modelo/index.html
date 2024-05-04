@@ -10,30 +10,44 @@
 
 <body>
     <section class="bloco">
-        <h1> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-        <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur odio itaque doloremque nihil perferendis
-            vel, dolores ut, sequi necessitatibus beatae exercitationem expedita ab quidem! Autem quibusdam reiciendis
-            maiores cupiditate blanditiis?
-        </p>
-        <form action="">
-            <label for="input-teste-1"> Label texte #1</label>
-            <input type="text" id="input-teste-1">
-            <label for="input-teste-2"> Label texte #2</label>
-            <input type="password" id="input-teste-2">
-            <label for="input-teste-3"> Label texte #3</label>
-            <input type="email" id="input-teste-3">
-            <label for="input-teste-4"> Label texte #4</label>
-            <input type="number" id="input-teste-4">
-            <button>Enviar</button>
-        </form>
-
-
-
+     <h1>Tabela IMC</h1>
+     <div class="bloco-flex">
+        <div>
+            <h3>Imc</h3>
+            <p>Menos do que 18,5</p>
+            <p>Entre 18,5 e 24,9</p>
+            <p>Entre 25 e 29,9</p>
+            <p>Entre 30 e 34,9</p>
+            <p>Entre 35 e 39,9</p>
+            <p>Mais do que 40</p>
+        </div>
+        <div>
+            <h3>Resultado</h3>
+       <p>Abaixo do peso</p>
+       <p>Peso normal</p>
+       <p>Sobrepeso</p>
+       <p>Obesidade grau I</p>
+       <p>Obesidade grau II</p>
+       <p>Obesidade grau III</p>
+     </div>
+     </div>
+     <h2>Calcule seu IMC</h2>
+     <div class="div-imc">
+<form action="">
+<label for="peso-imc">Peso:</label>
+<input type="number" id="peso-imc">
+<label for="altura-imc">Altura:</label>
+<input type="number" id="altura-imc">
+<button>Calcular</button>
+</form>
+<div class="resultado">
+<script src="./assets/js/index.js"></script>
+</div>
+     </div>
     </section>
 
 
-    <script src="./assets/js/index.js"></script>
+    
 </body>
 
 </html>

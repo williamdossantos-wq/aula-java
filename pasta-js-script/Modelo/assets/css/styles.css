@@ -11,19 +11,43 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--roxinho-color);
-    line-height: 1.5em;
-    font-size: 1.2em;
 }
 
 .bloco {
     margin: 30px auto;
     max-width: 640px;
-    background-color: brown;
+    background-color: #ffff;
     padding: 20px;
     border-radius: 30px;
+
 }
 
-form input,form label {
+.bloco h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.bloco h2 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.bloco h3 {
+    font-size: 25px;
+}
+.bloco p {
+    font-size: 18px;
+}
+
+.bloco-flex {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+}
+
+form input,
+form label {
     display: block;
     width: 100%;
 }
@@ -38,11 +62,17 @@ form button {
     font-weight: 400;
     cursor: pointer;
 }
-form input{
-    font-size: 24px;
-    height: 50px;
+form label{
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+
+}
+form input {
+    font-size: 20px;
+    height: 30px;
     padding: 0 20px;
 }
-form input:focus{
+
+form input:focus {
     outline: 2px solid var(--roxinho-color);
 }
