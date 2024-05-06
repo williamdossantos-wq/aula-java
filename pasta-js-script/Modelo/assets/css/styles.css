@@ -76,3 +76,8 @@ form input {
 form input:focus {
     outline: 2px solid var(--roxinho-color);
 }
+.resultado{
+    background-color: blue;
+    width: auto;
+    height: auto;
+}
