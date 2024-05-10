@@ -1,37 +1,23 @@
-function meuImc (){
-    const form = document.querySelector('.form');
+ const form = document.querySelector('.formulario');
+   
+form.addEventListener('submit', function (evento){
+    evento.preventDefault();
+const inputPeso = evento.target.querySelector('.peso-imc');
+const inputAltura = evento.target.querySelector('.altura-imc');
+
+console.log(inputPeso , inputAltura);
+});
+
+function criaP (){
+    const p = document.createElement('p');
+  return p;
+    
+}
+
+function setResultado (msg) {
     const resultado = document.querySelector('.resultado');
+    resultado.innerHTML = '';
+   const p = criaP();
 
-
-    function recebeEventoform (evento){
-        evento.preventDefault();
-
-        const peso = form.querySelector('.peso-imc');
-        const altura = form.querySelector('.altura-imc');
-    
-const imc = peso.value / (altura.value * altura.value);
-
-function seuImc(){
-
-    
-if (imc >= 0 && imc <= 18.5 ){
-    console.log(`Abaixo do peso`);
-} else if (imc >= 19.0 && imc <= 24.9){
-    console.log(`Peso normal`);
-} else if (imc >= 25.0 && imc <= 29,9){
-    console.log(`Sobrepeso`);
-} else if (imc >= 30.0 && imc <= 34.9){
-    console.log(`Obesidade grau I`);
-} else if (imc >= 35.0 && imc <= 39.9){
-    console.log(`Obesidade grau II`);
-} else if (imc >= 40.0 && imc <= 50.00){
-    console.log(`Obesidade grau III. tome cuidado`)
 }
-}
-const seuresul = seuImc;
-        resultado.innerHTML += `<p>o resultado é ${seuresul}</p>`
-
-    }
-        form.addEventListener('submit', recebeEventoform);
-}
-meuImc()
+ 
