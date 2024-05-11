@@ -81,3 +81,10 @@ form input:focus {
     width: auto;
     height: auto;
 }
+.paragrafo-resultado, .bad{
+    background-color: rgb(75, 72, 177);
+    padding:10px 20px;
+}
+.bad{
+    background-color: rgb(237, 134, 134);
+}
