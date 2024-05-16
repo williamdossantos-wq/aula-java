@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(149, 95, 199);
+    width: 100%;
+    height: 100%;
+   
+}
+.tela{
+    background-color: aliceblue;
+    width: 500px;
+    height: 100px;
+    margin: 100px auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.horas-projeto{
+text-align: center; 
+   width: 100%;
+   height: auto;
+
+}
