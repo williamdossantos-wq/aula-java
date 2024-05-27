@@ -15,7 +15,9 @@ const max = 20;
 
 let rar = random(min, max);
 
-while ( rar !== 5){
+
+
+while ( rar !== 7){
     rar = random(min, max);
     console.log(rar);
 }
