@@ -12,23 +12,37 @@ body {
     padding: 0;
     background-color: var(--roxinho-color);
 }
-.bloco{
+
+.bloco {
     margin: 30px auto;
     max-width: 640px;
     background-color: #ffff;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 30px;
 
 }
-.bloco h1{
+
+.bloco h1 {
     font-size: 30px;
+    margin-bottom: 0;
 }
+
+.bloco h2 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.bloco h3 {
+    font-size: 25px;
+}
+.bloco p {
+    font-size: 18px;
+}
+
 .bloco-flex {
+    display: flex;
+    justify-content: space-between;
     max-width: 500px;
 }
-.relogio{
-    font-size: 50px;
-}
-.pausado{
-    color:red ;
-}
+
