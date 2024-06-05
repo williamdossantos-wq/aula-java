@@ -19,6 +19,7 @@ body {
     background-color: #ffff;
     padding: 20px;
     border-radius: 30px;
+  
 
 }
 
@@ -40,9 +41,4 @@ body {
     font-size: 18px;
 }
 
-.bloco-flex {
-    display: flex;
-    justify-content: space-between;
-    max-width: 500px;
-}
 
