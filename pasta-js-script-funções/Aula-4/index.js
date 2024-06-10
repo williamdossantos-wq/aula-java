@@ -14,7 +14,7 @@ usaFalaNome();*/
 
 //72.Closures
 
-/*
+
 function retornaFuncao() {
     const nome = 'william';
     return function() {
@@ -23,7 +23,7 @@ function retornaFuncao() {
 };
 const funcao = retornaFuncao();
 console.log(funcao)
-*/
 
-//73.Funções de callback
+
+
 
