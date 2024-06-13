@@ -1,0 +1,47 @@
+:root {
+    --roxinho-color: rgb(138, 87, 220);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--roxinho-color);
+}
+
+.bloco {
+    margin: 30px auto;
+    max-width: 640px;
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+.bloco h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.bloco h2 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.bloco h3 {
+    font-size: 25px;
+}
+.bloco p {
+    font-size: 18px;
+}
+
+.bloco-flex {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+}
