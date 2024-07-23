@@ -50,10 +50,14 @@ body {
    
 }
 .bloco-flex input{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .enviar{
     width:100%;
     font-size: 20px;
     background-color: cyan;
+}
+.error-text{
+    font-size: 12px;
+    color:red;
 }
